@@ -1,0 +1,60 @@
+#topbar {
+    position: fixed;
+    width: 100vw;
+    background-color: white;
+    height: 10vh;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+body {
+    background-color: rgb(20, 20, 20);
+    overflow: hidden;
+}
+
+.img1 {
+    position: relative;
+    width: 40vh;
+    height: 9.6vh;
+}
+
+#instructions {
+    position: relative;
+    border: rgb(255, 255, 255) 2px solid;
+    width: 50vh;
+    top: 5vh;
+    left: 5vh;
+    height: 78vh;
+}
+
+.stepsname {
+    color: white;
+    text-align: center;
+}
+
+#instructions2 {
+    position: relative;
+    width: 445px;
+    top: 0px;
+    left: 25px;
+    height: 650px;
+    overflow: auto;
+    scrollbar-gutter: stable;
+}
+
+.cube {
+    position: relative;
+    left: 600px;
+    bottom: 700px;
+}
+
+.button1 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    bottom: 600px;
+    left: 1700px;
+    background-color: rgb(70, 70, 70);
+    font-family: Arial;
+    padding: 10px;
+}
